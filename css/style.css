@@ -28,5 +28,10 @@ a {
 }
 
 tr a:hover {
+<<<<<<< HEAD
   color: red;
 }/*# sourceMappingURL=style.css.map */
+=======
+  color: gold;
+}/*# sourceMappingURL=style.css.map */
+>>>>>>> ae8880daa1fa5273144ff4e36cae1e8b03205dc7
