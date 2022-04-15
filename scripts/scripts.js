@@ -28,17 +28,17 @@ const webtoons = [
   {
     site: "",
     webtoon: "Taming Master",
-    link_webtoon: "https://www.asurascans.com/comics/367-taming-master/",
+    link_webtoon: "https://www.asurascans.com/comics/1649969363-taming-master/",
   },
   {
     site: "",
     webtoon: "The Max Level Hero has Returned!",
-    link_webtoon: "https://www.asurascans.com/comics/367-the-max-level-hero-has-returned/",
+    link_webtoon: "https://www.asurascans.com/comics/1649969363-the-max-level-hero-has-returned/",
   },
   {
     site: "",
     webtoon: "Return Of The Shattered Constellation",
-    link_webtoon: "https://www.asurascans.com/comics/367-return-of-the-shattered-constellation/",
+    link_webtoon: "https://www.asurascans.com/comics/1649969363-return-of-the-shattered-constellation/",
   },
   {
     site: "Flames Scans",
