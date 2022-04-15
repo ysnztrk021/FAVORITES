@@ -16,7 +16,7 @@ const webtoons = [
     site: "Asura Scans",
     link_site: "https://www.asurascans.com/",
     webtoon: "Player Who Can't Level Up",
-    link_webtoon: "https://www.asurascans.com/comics/367-player-who-cant-level-up/",
+    link_webtoon: "https://www.asurascans.com/comics/1649969363-player-who-cant-level-up/",
     site2: "Facebook",
     link_site2: "https://www.facebook.com/",
   },
