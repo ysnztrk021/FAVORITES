@@ -92,8 +92,8 @@ const webtoons = [
     link_site: "https://manhuaplus.com/",
     webtoon: "Martial Peek",
     link_webtoon: "https://manhuaplus.com/manga/martial-peak/",
-    site2: "Voir Anime",
-    link_site2: "https://www.voiranime.com/",
+    site2: "AniMix Play",
+    link_site2: "https://animixplay.to/",
   },
   {
     site: "White Cloud Pavilion",
