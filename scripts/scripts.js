@@ -137,29 +137,36 @@ const webtoons = [
 
 const tbody = document.querySelector(".tbody");
 
-for (let i = 0; i < webtoons.length; i++) {
-  if (webtoons[i].site !== "") {
-    tbody.innerHTML +=
-      "<tr class='tdWebtoon'> <td> <a href='" +
-      webtoons[i].link_site +
-      "' target='_blank'>" +
-      webtoons[i].site +
-      "</a></td> <td><a href='" +
-      webtoons[i].link_webtoon +
-      "' target='_blank'>" +
-      webtoons[i].webtoon +
-      "</a></td><td><a href='" +
-      webtoons[i].link_site2 +
-      "' target='_blank'>" +
-      webtoons[i].site2 +
-      "</a></td>";
-  } else {
-    tbody.innerHTML +=
-      "<tr> <td style='background-color:#17171F;'></td> <td><a href='" +
-      webtoons[i].link_webtoon +
-      "' target='_blank'>" +
-      webtoons[i].webtoon +
-      "</a></td>" +
-      "</tr>";
+
+if(tbody.innerHTML===""){
+  initialize();
+}
+
+function initialize(){
+  for (let i = 0; i < webtoons.length; i++) {
+    if (webtoons[i].site !== "") {
+      tbody.innerHTML +=
+        "<tr class='tdWebtoon'> <td> <a href='" +
+        webtoons[i].link_site +
+        "' target='_blank'>" +
+        webtoons[i].site +
+        "</a></td> <td><a href='" +
+        webtoons[i].link_webtoon +
+        "' target='_blank'>" +
+        webtoons[i].webtoon +
+        "</a></td><td><a href='" +
+        webtoons[i].link_site2 +
+        "' target='_blank'>" +
+        webtoons[i].site2 +
+        "</a></td>";
+    } else {
+      tbody.innerHTML +=
+        "<tr> <td style='background-color:#17171F;'></td> <td><a href='" +
+        webtoons[i].link_webtoon +
+        "' target='_blank'>" +
+        webtoons[i].webtoon +
+        "</a></td>" +
+        "</tr>";
+    }
   }
 }
