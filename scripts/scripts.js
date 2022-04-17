@@ -130,8 +130,8 @@ const webtoons = [
     link_site: "https://setsuscans.com/",
     webtoon: "Tales of Demons and Gods",
     link_webtoon: "https://setsuscans.com/manga/the-tales-of-demons-and-gods/",
-    site2: "Viki",
-    link_site2: "https://www.viki.com/",
+    site2: "Drama Cool",
+    link_site2: "https://www.dramacool9.co/",
   },
 ];
 
