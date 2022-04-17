@@ -119,10 +119,19 @@ const webtoons = [
     site2: "Netflix",
     link_site2: "https://www.netflix.com/",
   },
+  
   {
     site: "",
     webtoon: "The Beginning After The End",
     link_webtoon: "https://manhuascan.com/manga-the-beginning-after-the-end.html",
+  },
+  {
+    site: "Setsu Scans",
+    link_site: "https://setsuscans.com/",
+    webtoon: "Tales of Demons and Gods",
+    link_webtoon: "https://setsuscans.com/manga/the-tales-of-demons-and-gods/",
+    site2: "Viki",
+    link_site2: "https://www.viki.com/",
   },
 ];
 
