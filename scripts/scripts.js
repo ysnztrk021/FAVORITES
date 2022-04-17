@@ -116,8 +116,8 @@ const webtoons = [
     link_site: "https://manhuascan.com/",
     webtoon: "Ranker Who Lives A Second Time",
     link_webtoon: "https://manhuascan.com/manga-ranker-who-lives-a-second-time.html",
-    site2: "Adkami",
-    link_site2: "https://www.adkami.com/",
+    site2: "Netflix",
+    link_site2: "https://www.netflix.com/",
   },
   {
     site: "",
