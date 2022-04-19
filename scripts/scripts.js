@@ -41,27 +41,6 @@ const webtoons = [
     link_webtoon: "https://www.asurascans.com/comics/1649969363-return-of-the-shattered-constellation/",
   },
   {
-    site: "Flames Scans",
-    link_site: "https://flamescans.org/",
-    webtoon: "Omniscient Reader’s Viewpoint",
-    link_webtoon: "https://flamescans.org/series/1649217721-omniscient-readers-viewpoint/",
-    site2: "GitHub",
-    link_site2: "https://www.github.com/",
-  },
-  {
-    site: "Luminous Scans",
-    link_site: "https://luminousscans.com/",
-    webtoon: "Memorize",
-    link_webtoon: "https://luminousscans.com/series/manhwa-of-memorize-novel/",
-    site2: "Twitch",
-    link_site2: "https://www.twitch.tv/",
-  },
-  {
-    site: "",
-    webtoon: "FFF-Class Trash Hero",
-    link_webtoon: "https://luminousscans.com/series/fff-class-trash-hero/",
-  },
-  {
     site: "Manganato",
     link_site: "https://manganato.com/",
     webtoon: "Jujutsu Kaisen",
@@ -78,6 +57,41 @@ const webtoons = [
     site: "",
     webtoon: "Unordinary",
     link_webtoon: "https://readmanganato.com/manga-uw971531",
+  },
+  {
+    site: "Manhua Plus",
+    link_site: "https://manhuascan.com/",
+    webtoon: "Ranker Who Lives A Second Time",
+    link_webtoon: "https://manhuascan.com/manga-ranker-who-lives-a-second-time.html",
+    site2: "Netflix",
+    link_site2: "https://www.netflix.com/",
+  },
+
+  {
+    site: "",
+    webtoon: "The Beginning After The End",
+    link_webtoon: "https://manhuascan.com/manga-the-beginning-after-the-end.html",
+  },
+  {
+    site: "Luminous Scans",
+    link_site: "https://luminousscans.com/",
+    webtoon: "Memorize",
+    link_webtoon: "https://luminousscans.com/series/manhwa-of-memorize-novel/",
+    site2: "Twitch",
+    link_site2: "https://www.twitch.tv/",
+  },
+  {
+    site: "",
+    webtoon: "FFF-Class Trash Hero",
+    link_webtoon: "https://luminousscans.com/series/fff-class-trash-hero/",
+  },
+  {
+    site: "Flames Scans",
+    link_site: "https://flamescans.org/",
+    webtoon: "Omniscient Reader’s Viewpoint",
+    link_webtoon: "https://flamescans.org/series/1649217721-omniscient-readers-viewpoint/",
+    site2: "GitHub",
+    link_site2: "https://www.github.com/",
   },
   {
     site: "1st Kiss Manga",
@@ -118,20 +132,6 @@ const webtoons = [
     link_webtoon: "https://setsuscans.com/manga/the-tales-of-demons-and-gods/",
     site2: "Drama Cool",
     link_site2: "https://www.dramacool9.co/",
-  },
-  {
-    site: "Manhua Plus",
-    link_site: "https://manhuascan.com/",
-    webtoon: "Ranker Who Lives A Second Time",
-    link_webtoon: "https://manhuascan.com/manga-ranker-who-lives-a-second-time.html",
-    site2: "Netflix",
-    link_site2: "https://www.netflix.com/",
-  },
-
-  {
-    site: "",
-    webtoon: "The Beginning After The End",
-    link_webtoon: "https://manhuascan.com/manga-the-beginning-after-the-end.html",
   },
 ];
 
