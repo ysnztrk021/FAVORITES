@@ -86,10 +86,10 @@ const webtoons = [
     link_webtoon: "https://luminousscans.com/series/fff-class-trash-hero/",
   },
   {
-    site: "Flames Scans",
-    link_site: "https://flamescans.org/",
+    site: "ManhwaZ",
+    link_site: "https://manhwaz.com/",
     webtoon: "Omniscient Reader’s Viewpoint",
-    link_webtoon: "https://flamescans.org/series/1649217721-omniscient-readers-viewpoint/",
+    link_webtoon: "https://manhwaz.com/webtoon/omniscient-readers-viewpoint-006",
     site2: "GitHub",
     link_site2: "https://www.github.com/",
   },
