@@ -137,7 +137,6 @@ const webtoons = [
 
 const tbody = document.querySelector(".tbody");
 
-
 if (tbody.innerHTML === "") {
   initialize();
 }
