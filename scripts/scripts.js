@@ -112,20 +112,6 @@ const webtoons = [
     link_site2: "https://www.twitter.com/",
   },
   {
-    site: "Manhua Plus",
-    link_site: "https://manhuascan.com/",
-    webtoon: "Ranker Who Lives A Second Time",
-    link_webtoon: "https://manhuascan.com/manga-ranker-who-lives-a-second-time.html",
-    site2: "Netflix",
-    link_site2: "https://www.netflix.com/",
-  },
-  
-  {
-    site: "",
-    webtoon: "The Beginning After The End",
-    link_webtoon: "https://manhuascan.com/manga-the-beginning-after-the-end.html",
-  },
-  {
     site: "Setsu Scans",
     link_site: "https://setsuscans.com/",
     webtoon: "Tales of Demons and Gods",
@@ -133,16 +119,30 @@ const webtoons = [
     site2: "Drama Cool",
     link_site2: "https://www.dramacool9.co/",
   },
+  {
+    site: "Manhua Plus",
+    link_site: "https://manhuascan.com/",
+    webtoon: "Ranker Who Lives A Second Time",
+    link_webtoon: "https://manhuascan.com/manga-ranker-who-lives-a-second-time.html",
+    site2: "Netflix",
+    link_site2: "https://www.netflix.com/",
+  },
+
+  {
+    site: "",
+    webtoon: "The Beginning After The End",
+    link_webtoon: "https://manhuascan.com/manga-the-beginning-after-the-end.html",
+  },
 ];
 
 const tbody = document.querySelector(".tbody");
 
 
-if(tbody.innerHTML===""){
+if (tbody.innerHTML === "") {
   initialize();
 }
 
-function initialize(){
+function initialize() {
   for (let i = 0; i < webtoons.length; i++) {
     if (webtoons[i].site !== "") {
       tbody.innerHTML +=
