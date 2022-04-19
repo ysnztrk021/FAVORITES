@@ -18,7 +18,7 @@ table {
   padding: 5px 0 5px 10px;
 }
 
-tr {
+.tbody tr:nth-child(odd) {
   background-color: rgb(29, 28, 50);
 }
 
