@@ -5,7 +5,7 @@ body {
 	color: white;
 	font-size: 27px;
 }
-p{
+p {
 	text-align: center;
 	margin-bottom: 0px;
 }
@@ -32,23 +32,23 @@ a {
 	display: grid;
 }
 
-.title{
+.title {
 	display: flex;
 }
 
-a:hover{
-	color:red;
+a:hover {
+	color: red;
 }
 
-@media screen and (max-width:768px) {
-	body{
+@media screen and (max-width: 768px) {
+	body {
 		font-size: 20px;
 	}
 	.grid {
 		display: grid;
 		grid-template-columns: repeat(2, 2fr);
 	}
-        .grid-webtoon{
-                margin-top: 10px;
-         }
+	.grid-webtoon {
+		margin-top: 10px;
+	}
 }
