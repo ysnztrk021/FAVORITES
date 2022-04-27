@@ -50,6 +50,11 @@ const webtoons = [
   },
   {
     site: "",
+    webtoon: "Apotheosis",
+    link_webtoon: "https://readmanganato.com/manga-bt978676",
+  },
+  {
+    site: "",
     webtoon: "Mercenary Enrollment",
     link_webtoon: "https://readmanganato.com/manga-jz987182",
   },
