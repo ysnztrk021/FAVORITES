@@ -56,4 +56,7 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
   }
+        .grid-webtoon{
+                margin-top: 10px;
+         }
 }/*# sourceMappingURL=style.css.map */
