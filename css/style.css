@@ -1,32 +1,45 @@
 body {
-  background-color: #17171F;
-  color: white;
-  font-size: 28px;
-}
-
-.container {
   display: flex;
   justify-content: center;
+  background-color: #17171f;
+  color: white;
+  font-size: 27px;
 }
 
-table {
-  border-collapse: collapse;
-  margin-right: 30px;
+p {
+  text-align: center;
+  margin-bottom: 0px;
 }
 
-.tbody td {
-  padding: 5px 0 5px 10px;
-}
-
-.tbody tr:nth-child(odd) {
-  background-color: rgb(29, 28, 50);
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 a {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   text-decoration: none;
   color: white;
 }
 
-tr a:hover {
+.grid-webtoon {
+  margin: 0 0 0 auto;
+  gap: 10px;
+  display: grid;
+}
+
+.grid-constantly {
+  margin: 0 0 0 auto;
+  gap: 10px;
+  display: grid;
+}
+
+.title {
+  display: flex;
+}
+
+a:hover {
   color: red;
 }/*# sourceMappingURL=style.css.map */
