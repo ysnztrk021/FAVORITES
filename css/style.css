@@ -1,62 +1,67 @@
 body {
-	display: flex;
-	justify-content: center;
-	background-color: #17171f;
-	color: white;
-	font-size: 27px;
+  display: flex;
+  justify-content: center;
+  background-color: #17171f;
+  color: white;
+  font-size: 35px;
 }
 
 p {
-	text-align: center;
-	margin-bottom: 0px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 0px;
 }
 
 .grid {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 a {
-	height: -webkit-fit-content;
-	height: -moz-fit-content;
-	height: fit-content;
-	width: -webkit-fit-content;
-	width: -moz-fit-content;
-	width: fit-content;
-	text-decoration: none;
-	color: white;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-decoration: none;
+  color: white;
 }
 
 .grid-webtoon {
-	margin: 0 0 0 auto;
-	gap: 10px;
-	display: grid;
+  margin: 0 0 0 auto;
+  gap: 10px;
+  display: grid;
 }
 
 .grid-constantly {
-	margin: 0 0 0 auto;
-	gap: 10px;
-	display: grid;
+  margin: 0 0 0 auto;
+  gap: 10px;
+  display: grid;
 }
 
 .title {
-	display: flex;
+  display: flex;
 }
 
 a:hover {
-	color: red;
+  color: red;
 }
 
 @media screen and (max-width: 768px) {
-	body {
-		font-size: 20px;
-	}
+  body {
+    font-size: 20px;
+  }
 
-	.grid {
-		display: grid;
-		grid-template-columns: repeat(2, 2fr);
-	}
-	.grid-webtoon {
-		margin-top: 10px;
-	}
-} /*# sourceMappingURL=style.css.map */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
+
+  .grid-webtoon {
+    margin-top: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
