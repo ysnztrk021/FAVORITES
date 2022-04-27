@@ -1,176 +1,158 @@
-const webtoons = [
+const favourite_webtoon = [
   {
-    site: "Alpha Scans",
-    link_site: "https://alpha-scans.org/",
-    webtoon: "Murim Login",
-    link_webtoon: "https://alpha-scans.org/manga/murim-login/",
-    site2: "YouTube",
-    link_site2: "https://www.youtube.com/",
+      webtoon: "Murim Login",
+      link_webtoon: "https://alpha-scans.org/manga/murim-login/",
   },
   {
-    site: "",
-    webtoon: "Demonic Emperor",
-    link_webtoon: "https://alpha-scans.org/manga/demonic-emperor/",
+      webtoon: "Demonic Emperor",
+      link_webtoon: "https://alpha-scans.org/manga/demonic-emperor/",
   },
   {
-    site: "Asura Scans",
-    link_site: "https://www.asurascans.com/",
-    webtoon: "Player Who Can't Level Up",
-    link_webtoon: "https://www.asurascans.com/comics/1649969363-player-who-cant-level-up/",
-    site2: "Facebook",
-    link_site2: "https://www.facebook.com/",
+      webtoon: "Player Who Can't Level Up",
+      link_webtoon: "https://www.asurascans.com/comics/1649969363-player-who-cant-level-up/",
   },
   {
-    site: "",
-    webtoon: "Reincarnation of the Suicidal Battle God",
-    link_webtoon: "https://www.asurascans.com/comics/367-reincarnation-of-the-suicidal-battle-god/",
+      webtoon: "Reincarnation of the Suicidal Battle God",
+      link_webtoon: "https://www.asurascans.com/comics/367-reincarnation-of-the-suicidal-battle-god/",
   },
   {
-    site: "",
-    webtoon: "Taming Master",
-    link_webtoon: "https://www.asurascans.com/comics/1649969363-taming-master/",
+      webtoon: "Taming Master",
+      link_webtoon: "https://www.asurascans.com/comics/1649969363-taming-master/",
   },
   {
-    site: "",
-    webtoon: "The Max Level Hero has Returned!",
-    link_webtoon: "https://www.asurascans.com/comics/1649969363-the-max-level-hero-has-returned/",
+      webtoon: "The Max Level Hero has Returned!",
+      link_webtoon: "https://www.asurascans.com/comics/1649969363-the-max-level-hero-has-returned/",
   },
   {
-    site: "",
-    webtoon: "Return Of The Shattered Constellation",
-    link_webtoon: "https://www.asurascans.com/comics/1649969363-return-of-the-shattered-constellation/",
+      webtoon: "Return Of The Shattered Constellation",
+      link_webtoon: "https://www.asurascans.com/comics/1649969363-return-of-the-shattered-constellation/",
   },
   {
-    site: "Manganato",
-    link_site: "https://manganato.com/",
-    webtoon: "Jujutsu Kaisen",
-    link_webtoon: "https://readmanganato.com/manga-ba979135",
-    site2: "Gmail",
-    link_site2: "https://mail.google.com",
+      webtoon: "Jujutsu Kaisen",
+      link_webtoon: "https://readmanganato.com/manga-ba979135",
   },
   {
-    site: "",
-    webtoon: "Apotheosis",
-    link_webtoon: "https://readmanganato.com/manga-bt978676",
+      webtoon: "Mercenary Enrollment",
+      link_webtoon: "https://readmanganato.com/manga-jz987182",
   },
   {
-    site: "",
-    webtoon: "Mercenary Enrollment",
-    link_webtoon: "https://readmanganato.com/manga-jz987182",
+      webtoon: "Unordinary",
+      link_webtoon: "https://readmanganato.com/manga-uw971531",
   },
   {
-    site: "",
-    webtoon: "Unordinary",
-    link_webtoon: "https://readmanganato.com/manga-uw971531",
-  },
-  {
-    site: "Manhua Plus",
-    link_site: "https://manhuascan.com/",
-    webtoon: "Ranker Who Lives A Second Time",
-    link_webtoon: "https://manhuascan.com/manga-ranker-who-lives-a-second-time.html",
-    site2: "Netflix",
-    link_site2: "https://www.netflix.com/",
+      webtoon: "Ranker Who Lives A Second Time",
+      link_webtoon: "https://manhuascan.com/manga-ranker-who-lives-a-second-time.html",
   },
 
   {
-    site: "",
-    webtoon: "The Beginning After The End",
-    link_webtoon: "https://manhuascan.com/manga-the-beginning-after-the-end.html",
+      webtoon: "The Beginning After The End",
+      link_webtoon: "https://manhuascan.com/manga-the-beginning-after-the-end.html",
   },
   {
-    site: "Luminous Scans",
-    link_site: "https://luminousscans.com/",
-    webtoon: "Memorize",
-    link_webtoon: "https://luminousscans.com/series/manhwa-of-memorize-novel/",
-    site2: "Twitch",
-    link_site2: "https://www.twitch.tv/",
+      webtoon: "Memorize",
+      link_webtoon: "https://luminousscans.com/series/manhwa-of-memorize-novel/",
   },
   {
-    site: "",
-    webtoon: "FFF-Class Trash Hero",
-    link_webtoon: "https://luminousscans.com/series/fff-class-trash-hero/",
+      webtoon: "FFF-Class Trash Hero",
+      link_webtoon: "https://luminousscans.com/series/fff-class-trash-hero/",
   },
   {
-    site: "ManhwaZ",
-    link_site: "https://manhwaz.com/",
-    webtoon: "Omniscient Reader’s Viewpoint",
-    link_webtoon: "https://manhwaz.com/webtoon/omniscient-readers-viewpoint-006",
-    site2: "GitHub",
-    link_site2: "https://www.github.com/",
+      webtoon: "Omniscient Reader’s Viewpoint",
+      link_webtoon: "https://manhwaz.com/webtoon/omniscient-readers-viewpoint-006",
   },
   {
-    site: "1st Kiss Manga",
-    link_site: "https://1stkissmanga.io/",
-    webtoon: "The Beginning After The End",
-    link_webtoon: "https://1stkissmanga.io/manga/the-beginning-after-the-end/",
-    site2: "Instagram",
-    link_site2: "https://www.instagram.com/",
+      webtoon: "The Beginning After The End",
+      link_webtoon: "https://1stkissmanga.io/manga/the-beginning-after-the-end/",
   },
   {
-    site: "Manhua Plus",
-    link_site: "https://manhuaplus.com/",
-    webtoon: "Martial Peek",
-    link_webtoon: "https://manhuaplus.com/manga/martial-peak/",
-    site2: "AniMix Play",
-    link_site2: "https://animixplay.to/",
+      webtoon: "Apotheosis",
+      link_webtoon: "https://readmanganato.com/manga-bt978676",
   },
   {
-    site: "White Cloud Pavilion",
-    link_site: "https://www.whitecloudpavilion.com/",
-    webtoon: "Soul Land",
-    link_webtoon: "https://www.whitecloudpavilion.com/manga/patreon/manga/soul-land",
-    site2: "Font Squirrel",
-    link_site2: "https://www.fontsquirrel.com/",
+      webtoon: "Martial Peek",
+      link_webtoon: "https://manhuaplus.com/manga/martial-peak/",
   },
   {
-    site: "MM SCANS",
-    link_site: "https://mm-scans.org/",
-    webtoon: "Eleceed",
-    link_webtoon: "https://mm-scans.org/manga/ele-ceed2/",
-    site2: "Twitter",
-    link_site2: "https://www.twitter.com/",
+      webtoon: "Soul Land",
+      link_webtoon: "https://www.whitecloudpavilion.com/manga/patreon/manga/soul-land",
   },
   {
-    site: "Setsu Scans",
-    link_site: "https://setsuscans.com/",
-    webtoon: "Tales of Demons and Gods",
-    link_webtoon: "https://setsuscans.com/manga/the-tales-of-demons-and-gods/",
-    site2: "Drama Cool",
-    link_site2: "https://www.dramacool9.co/",
+      webtoon: "Eleceed",
+      link_webtoon: "https://mm-scans.org/manga/ele-ceed2/",
   },
-];
+  {
+      webtoon: "Tales of Demons and Gods",
+      link_webtoon: "https://setsuscans.com/manga/the-tales-of-demons-and-gods/",
+  },
+]
+const favourite_site = [
+  {
+      constantly: "YouTube",
+      link_constantly: "https://www.youtube.com/",
+  }, {
+      constantly: "Facebook",
+      link_constantly: "https://www.facebook.com/"
+  }, {
+      constantly: "Gmail",
+      link_constantly: "https://mail.google.com",
+  }, {
+      constantly: "Netflix",
+      link_constantly: "https://www.netflix.com/",
+  }, {
+      constantly: "Twitch",
+      link_constantly: "https://www.twitch.tv/",
+  }, {
+      constantly: "GitHub",
+      link_constantly: "https://www.github.com/",
+  }, {
+      constantly: "Instagram",
+      link_constantly: "https://www.instagram.com/",
+  }, {
+      constantly: "AniMix Play",
+      link_constantly: "https://animixplay.to/",
+  }, {
+      constantly: "Font Squirrel",
+      link_constantly: "https://www.fontsquirrel.com/",
+  }, {
+      constantly: "Twitter",
+      link_constantly: "https://www.twitter.com/",
+  }, {
+      constantly: "Drama Cool",
+      link_constantly: "https://www.dramacool9.co/",
+  },
+]
+/*Generate favorites*/
+const sorted_site = favourite_site.sort(sortSite)
+const sorted_webtoon = favourite_webtoon.sort(sortWebtoon)
 
-const tbody = document.querySelector(".tbody");
+const grid_webtoon = document.querySelector(".grid-webtoon");
+const grid_constantly = document.querySelector(".grid-constantly");
 
-if (tbody.innerHTML === "") {
-  initialize();
+for (let i = 0; i < sorted_webtoon.length; i++) {
+  grid_webtoon.innerHTML += "<a href='" + sorted_webtoon[i].link_webtoon + "' target='_blank'>" + sorted_webtoon[i].webtoon + "</a>";
+}
+for (let i = 0; i < sorted_site.length; i++) {
+  grid_constantly.innerHTML += "<a href='" + sorted_site[i].link_constantly + "' target='_blank'>" + sorted_site[i].constantly + "</a>";
 }
 
-function initialize() {
-  for (let i = 0; i < webtoons.length; i++) {
-    if (webtoons[i].site !== "") {
-      tbody.innerHTML +=
-        "<tr class='tdWebtoon'> <td> <a href='" +
-        webtoons[i].link_site +
-        "' target='_blank'>" +
-        webtoons[i].site +
-        "</a></td> <td><a href='" +
-        webtoons[i].link_webtoon +
-        "' target='_blank'>" +
-        webtoons[i].webtoon +
-        "</a></td><td><a href='" +
-        webtoons[i].link_site2 +
-        "' target='_blank'>" +
-        webtoons[i].site2 +
-        "</a></td>";
-    } else {
-      tbody.innerHTML +=
-        "<tr> <td style='background-color:#17171F;'></td> <td><a href='" +
-        webtoons[i].link_webtoon +
-        "' target='_blank'>" +
-        webtoons[i].webtoon +
-        "</a></td>" +
-        "</tr>";
-    }
+/*Sort*/
+
+
+function sortWebtoon(a, b) {
+  if (a.webtoon < b.webtoon) {
+      return -1;
   }
+  if (a.webtoon > b.webtoon) {
+      return 1;
+  }
+  return 0;
+}
+function sortSite(a, b) {
+  if (a.constantly < b.constantly) {
+      return -1;
+  }
+  if (a.constantly > b.constantly) {
+      return 1;
+  }
+  return 0;
 }
