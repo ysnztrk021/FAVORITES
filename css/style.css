@@ -17,6 +17,9 @@ p {
 }
 
 a {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
