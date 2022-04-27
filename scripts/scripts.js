@@ -61,10 +61,6 @@ const favourite_webtoon = [
       link_webtoon: "https://manhwaz.com/webtoon/omniscient-readers-viewpoint-006",
   },
   {
-      webtoon: "The Beginning After The End",
-      link_webtoon: "https://1stkissmanga.io/manga/the-beginning-after-the-end/",
-  },
-  {
       webtoon: "Apotheosis",
       link_webtoon: "https://readmanganato.com/manga-bt978676",
   },
