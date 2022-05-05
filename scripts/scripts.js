@@ -1,7 +1,7 @@
 const favourite_webtoon = [
   {
       webtoon: "Murim Login",
-      link_webtoon: "https://alpha-scans.org/manga/murim-login/",
+      link_webtoon: "https://www.asurascans.com/comics/murim-login/",
   },
   {
       webtoon: "Demonic Emperor",
