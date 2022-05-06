@@ -115,6 +115,9 @@ const favourite_site = [
   }, {
       constantly: "Drama Cool",
       link_constantly: "https://www.dramacool9.co/",
+  },{
+      constantly: "Xbox Cloud Game",
+      link_constantly: "https://www.xbox.com/fr-BE/play",
   },
 ]
 /*Generate favorites*/
