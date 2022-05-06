@@ -51,8 +51,10 @@ a:hover {
 		font-size: 20px;
 	}
 	.grid {
+		margin-top: 0;
 		display: grid;
 		grid-template-columns: repeat(2, 2fr);
+		margin-bottom: 20px;
 	}
 	.grid-webtoon {
 		margin-top: 10px;
