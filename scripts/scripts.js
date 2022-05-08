@@ -139,29 +139,37 @@ const favourite_site = [
         link_constantly: "https://www.xbox.com/fr-BE/play",
     },
 ]
-/*Generate favorites*/
-const sorted_site = favourite_site.sort(sortSite)
-const sorted_webtoon = favourite_webtoon.sort(sortWebtoon)
-
+// Select elements
 const grid_webtoon = document.querySelector(".grid-webtoon");
 const grid_constantly = document.querySelector(".grid-constantly");
 
-generate_webtoon(sorted_webtoon);
+// Create element
+const title_webtoon = document.createElement('p');
+const title_constantly = document.createElement('p');
+title_webtoon.className='title-webtoon'
+title_webtoon.innerHTML='Webtoon'
+title_constantly.className='title-constantly'
+title_constantly.innerHTML='Constantly'
 
+const sorted_webtoon = favourite_webtoon.sort(sortWebtoon)
+const sorted_constantly = favourite_site.sort(sortSite)
+
+generate_webtoon(sorted_webtoon);
 function generate_webtoon(webtoon) {
+    grid_webtoon.appendChild(title_webtoon)
     for (let i = 0; i < webtoon.length; i++) {
         grid_webtoon.innerHTML += "<a href='" + webtoon[i].link_webtoon + "' target='_blank'>" + webtoon[i].webtoon + "</a>";
     }
 }
-generate_constantly(sorted_site);
+generate_constantly(sorted_constantly);
 function generate_constantly(site) {
+    grid_constantly.appendChild(title_constantly)
     for (let i = 0; i < site.length; i++) {
         grid_constantly.innerHTML += "<a href='" + site[i].link_constantly + "' target='_blank'>" + site[i].constantly + "</a>";
     }
 }
 
 /*Sort*/
-
 function sortWebtoon(a, b) {
     if (a.webtoon.toLowerCase() < b.webtoon.toLowerCase()) {
         return -1;
@@ -171,6 +179,7 @@ function sortWebtoon(a, b) {
     }
     return 0;
 }
+
 function sortSite(a, b) {
     if (a.constantly.toLowerCase() < b.constantly.toLowerCase()) {
         return -1;
