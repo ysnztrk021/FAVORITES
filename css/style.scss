@@ -1,30 +1,76 @@
+// FONT STYLE
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Tapestry&display=swap');
+
+// Colors
+$text-color: white;
+$hover-color: red;
+
+// Scrollbar off
 body::-webkit-scrollbar {
 	display: none;
 }
+
+// body
 body {
-	display: flex;
-	justify-content: center;
 	background-color: #17171f;
-	color: white;
-	font-size: 30px;
+	color: $text-color;
+	font-size: 26px;
 }
+
+// TEXT
 p {
-	font-weight: bold;
+	font-family: 'Days One', sans-serif;
 	height: fit-content;
 	margin-top: 0;
 	text-align: center;
 	margin-bottom: 0px;
 }
+
+a {
+	font-family: 'Tapestry', cursive;
+	height: fit-content;
+	width: fit-content;
+	text-decoration: none;
+	color: $text-color;
+	text-transform: capitalize;
+}
+
+a:hover {
+	color: $hover-color;
+}
+
+// menu-bar
+
+// .add-favorites-show{
+// 	display: block;
+// }
+
+// .add-favorites-hide{
+// 	display: none;
+// }
+
+// img
+
+// .img-hide{
+// 	display: none;
+// }
+
+// .img-menuShow{
+// 	height: 30px;
+// }
+// .img-menuUnshow{
+// 	height: 30px;
+// }
+
+// GRID
 .grid {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 }
 
-a {
-	height: fit-content;
-	width: fit-content;
-	text-decoration: none;
-	color: white;
+.grid-align-center{
+	display: flex;
+	justify-content: center;
 }
 
 .grid-webtoon {
@@ -38,14 +84,7 @@ a {
 	display: grid;
 }
 
-.title {
-	display: flex;
-}
-
-a:hover {
-	color: red;
-}
-
+// MOBILE
 @media screen and (max-width: 768px) {
 	body {
 		font-size: 20px;

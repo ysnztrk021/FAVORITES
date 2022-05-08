@@ -9,7 +9,7 @@ const favourite_webtoon = [
   },
   {
       webtoon: "Player Who Can't Level Up",
-      link_webtoon: "https://www.asurascans.com/comics/1649969363-player-who-cant-level-up/",
+      link_webtoon: "https://toonily.com/webtoon/the-player-that-cant-level-up/",
   },
   {
       webtoon: "Reincarnation of the Suicidal Battle God",
@@ -17,11 +17,11 @@ const favourite_webtoon = [
   },
   {
       webtoon: "Taming Master",
-      link_webtoon: "https://www.asurascans.com/comics/1649969363-taming-master/",
+      link_webtoon: "https://toonily.com/webtoon/taming-master/",
   },
   {
       webtoon: "The Max Level Hero has Returned!",
-      link_webtoon: "https://www.asurascans.com/comics/1649969363-the-max-level-hero-has-returned/",
+      link_webtoon: "https://toonily.com/webtoon/the-max-level-hero-has-returned/",
   },
   {
       webtoon: "Return Of The Shattered Constellation",
@@ -41,12 +41,12 @@ const favourite_webtoon = [
   },
   {
       webtoon: "Ranker Who Lives A Second Time",
-      link_webtoon: "https://manhuascan.com/manga-ranker-who-lives-a-second-time.html",
+      link_webtoon: "https://toonily.com/webtoon/second-ranker/",
   },
 
   {
       webtoon: "The Beginning After The End",
-      link_webtoon: "https://manhuascan.com/manga-the-beginning-after-the-end.html",
+      link_webtoon: "https://toonily.com/webtoon/beginning-after-end/",
   },
   {
       webtoon: "Memorize",
@@ -54,7 +54,7 @@ const favourite_webtoon = [
   },
   {
       webtoon: "FFF-Class Trash Hero",
-      link_webtoon: "https://luminousscans.com/series/fff-class-trash-hero/",
+      link_webtoon: "https://toonily.com/webtoon/fff-class-trashero/",
   },
   {
       webtoon: "Omniscient Reader’s Viewpoint",
@@ -74,11 +74,15 @@ const favourite_webtoon = [
   },
   {
       webtoon: "Eleceed",
-      link_webtoon: "https://mm-scans.org/manga/ele-ceed2/",
+      link_webtoon: "https://toonily.com/webtoon/eleceed/",
   },
   {
       webtoon: "Tales of Demons and Gods",
       link_webtoon: "https://setsuscans.com/manga/the-tales-of-demons-and-gods/",
+  },
+  {
+      webtoon: "Tomb Raider King",
+      link_webtoon: "https://toonily.com/webtoon/tomb-raider-king/",
   },
 ]
 const favourite_site = [
@@ -127,31 +131,81 @@ const sorted_webtoon = favourite_webtoon.sort(sortWebtoon)
 const grid_webtoon = document.querySelector(".grid-webtoon");
 const grid_constantly = document.querySelector(".grid-constantly");
 
-for (let i = 0; i < sorted_webtoon.length; i++) {
-  grid_webtoon.innerHTML += "<a href='" + sorted_webtoon[i].link_webtoon + "' target='_blank'>" + sorted_webtoon[i].webtoon + "</a>";
+generate_webtoon(sorted_webtoon);
+
+function generate_webtoon(webtoon){
+    for (let i = 0; i < webtoon.length; i++) {
+      grid_webtoon.innerHTML += "<a href='" + webtoon[i].link_webtoon + "' target='_blank'>" + webtoon[i].webtoon + "</a>";
+    }
 }
-for (let i = 0; i < sorted_site.length; i++) {
-  grid_constantly.innerHTML += "<a href='" + sorted_site[i].link_constantly + "' target='_blank'>" + sorted_site[i].constantly + "</a>";
+generate_constantly(sorted_site);
+function generate_constantly(site){
+    for (let i = 0; i < site.length; i++) {
+      grid_constantly.innerHTML += "<a href='" + site[i].link_constantly + "' target='_blank'>" + site[i].constantly + "</a>";
+    }
 }
 
 /*Sort*/
 
-
 function sortWebtoon(a, b) {
-  if (a.webtoon < b.webtoon) {
+  if (a.webtoon.toLowerCase() < b.webtoon.toLowerCase()) {
       return -1;
   }
-  if (a.webtoon > b.webtoon) {
+  if (a.webtoon.toLowerCase() > b.webtoon.toLowerCase()) {
       return 1;
   }
   return 0;
 }
 function sortSite(a, b) {
-  if (a.constantly < b.constantly) {
+  if (a.constantly.toLowerCase() < b.constantly.toLowerCase()) {
       return -1;
   }
-  if (a.constantly > b.constantly) {
+  if (a.constantly.toLowerCase() > b.constantly.toLowerCase()) {
       return 1;
   }
   return 0;
 }
+
+/* Show Add favorites */
+
+// const img_show = document.querySelector(".img-menuShow")
+// const img_Unshow = document.querySelector(".img-menuUnshow")
+// const add_favorites = document.querySelector(".add-favorites")
+
+// img_show.addEventListener("click",()=>{
+//     add_favorites.className = "add-favorites-show";
+//     img_show.className += " img-hide"
+//     img_Unshow.className = "img-menuUnshow"
+// })
+// img_Unshow.addEventListener("click",()=>{
+//     add_favorites.className = "add-favorites-hide";
+//     img_Unshow.className += " img-hide"
+//     img_show.className = "img-menuShow"
+// })
+
+/* Add favorites */
+
+// const add_webtoon = document.querySelector(".add-webtoon");
+// const add_constantly = document.querySelector(".add-constantly");
+
+// const webtoon_name = document.querySelector(".webtoon-name");
+// const webtoon_link = document.querySelector(".webtoon-link");
+
+// const constantly_name = document.querySelector(".constantly-name");
+// const constantly_link = document.querySelector(".constantly-link");
+
+// const btn_webtoon = document.querySelector(".btn-webtoon");
+// const btn_constantly = document.querySelector(".btn-constantly");
+
+// btn_webtoon.addEventListener("click", ()=>{
+//     favourite_webtoon.push({webtoon:webtoon_name.value,link_webtoon:webtoon_link.value})
+//     grid_webtoon.innerHTML="<p class='title-webtoon'>Webtoon</p>";
+//     let sort_webtoon = favourite_webtoon.sort(sortWebtoon)
+//     generate_webtoon(sort_webtoon)
+// })
+// btn_constantly.addEventListener("click", ()=>{
+//     favourite_site.push({constantly:constantly_name.value,link_constantly:constantly_link.value})
+//     grid_constantly.innerHTML="<p class='title-site'>Constantly</p>";
+//     let sort_constantly = favourite_site.sort(sortSite);
+//     generate_constantly(sort_constantly)
+// })

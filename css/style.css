@@ -1,17 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Days+One&family=Tapestry&display=swap");
 body::-webkit-scrollbar {
   display: none;
 }
 
 body {
-  display: flex;
-  justify-content: center;
   background-color: #17171f;
   color: white;
-  font-size: 30px;
+  font-size: 26px;
 }
 
 p {
-  font-weight: bold;
+  font-family: "Days One", sans-serif;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -20,12 +19,8 @@ p {
   margin-bottom: 0px;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
 a {
+  font-family: "Tapestry", cursive;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -34,6 +29,21 @@ a {
   width: fit-content;
   text-decoration: none;
   color: white;
+  text-transform: capitalize;
+}
+
+a:hover {
+  color: red;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-align-center {
+  display: flex;
+  justify-content: center;
 }
 
 .grid-webtoon {
@@ -46,14 +56,6 @@ a {
   margin: 0 0 0 auto;
   gap: 10px;
   display: grid;
-}
-
-.title {
-  display: flex;
-}
-
-a:hover {
-  color: red;
 }
 
 @media screen and (max-width: 768px) {
