@@ -88,6 +88,10 @@ const favourite_webtoon = [
         webtoon: "Swordmaster’s Youngest Son",
         link_webtoon: "https://www.asurascans.com/comics/swordmasters-youngest-son/",
     },
+    {
+        webtoon: "Return of the Disaster-Class Hero",
+        link_webtoon: "https://www.asurascans.com/comics/1649969363-return-of-the-disaster-class-hero/",
+    },
 ]
 const favourite_site = [
     {
