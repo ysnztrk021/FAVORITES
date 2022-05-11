@@ -88,7 +88,7 @@ const favourite_webtoon = [
     {
         webtoon: "Soul Land",
         link_webtoon: "https://www.whitecloudpavilion.com/manga/patreon/manga/soul-land",
-        img_webtoon:"Soul-land.jpg"
+        img_webtoon:"img/Soul-land.jpg"
     },
     {
         webtoon: "Eleceed",
