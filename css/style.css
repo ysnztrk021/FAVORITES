@@ -5,111 +5,71 @@ body::-webkit-scrollbar {
 
 body {
   margin: 0px;
-  background-color: #17171f;
+  background-color: rgb(15, 15, 15);
   color: white;
   font-size: 23px;
 }
 
-h2 {
-  font-family: "Days One", sans-serif;
-  margin: 0;
-}
-
 a {
-  font-family: "Tapestry", cursive;
-  margin: 0;
-  font-size: 30px;
+  color: #95b6d0;
   text-decoration: none;
-  color: white;
 }
 
-a:hover {
-  color: red;
+.list-site li p {
+  margin: 0;
 }
 
-.grid-title {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin-bottom: 30px;
-  border-bottom: 1px solid white;
+.title-webtoon {
+  margin-top: 10px;
 }
 
-img {
-  height: 114px;
+.list-webtoon img {
+  height: 300px;
+  width: 200px;
+}
+
+.list-site img {
+  height: 20px;
+}
+
+.main-bar {
+  display: flex;
+  justify-content: center;
 }
 
 .list-webtoon {
-  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.list-webtoon-grid {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(25, 25, 25);
+  width: 83%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 25px;
 }
 
 .list-site {
-  position: absolute;
-  width: 50%;
-  left: 50%;
+  display: flex;
+  gap: 20px;
 }
 
-.webtoon {
-  width: 48%;
-  float: left;
-  position: relative;
-  border-bottom: 1px solid #312f40;
-  border-right: 1px solid #312f40;
-  padding: 10px 0px 0px 18px;
+.list-webtoon li {
+  text-align: center;
+  padding-bottom: 20px;
+  width: 200px;
+  background-color: rgb(35, 35, 35);
+  list-style: none;
 }
 
-.webtoon-name {
-  position: absolute;
-  top: 1px;
-  left: 110px;
+.list-site li {
+  list-style: none;
 }
 
-.constantly {
-  width: 48%;
-  float: left;
-  position: relative;
-  border-bottom: 1px solid #312f40;
-  border-right: 1px solid #312f40;
-  padding: 22px 0px 22px 18px;
-}
-
-.constantly-img img {
-  height: 80px;
-}
-
-.constantly-name {
-  position: absolute;
-  top: 1px;
-  left: 140px;
-  padding-top: 20px;
-}
-
-@media screen and (max-width: 768px) {
-  .list-webtoon {
-    width: 100%;
-  }
-
-  .webtoon {
-    display: flex;
-    width: 100%;
-  }
-
-  .constantly {
-    display: none;
-  }
-
-  h2:nth-child(2n) {
-    display: none;
-  }
-
-  h2 {
-    font-size: 30px;
-  }
-
-  a {
-    font-size: 20px;
-  }
-
-  img {
-    height: 100px;
-  }
+.list-webtoon li:hover {
+  background-color: rgb(45, 45, 45);
+  transform: scale(0.97);
 }/*# sourceMappingURL=style.css.map */
