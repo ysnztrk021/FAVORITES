@@ -1,98 +1,85 @@
 // FONT STYLE
 @import url('https://fonts.googleapis.com/css2?family=Days+One&family=Tapestry&display=swap');
 
-// Colors
-$text-color: white;
-$hover-color: red;
-
 // Scrollbar off
 body::-webkit-scrollbar {
 	display: none;
 }
 
-// body
+// Body
 body {
+	margin: 0px;
 	background-color: #17171f;
-	color: $text-color;
+	color: white;
 	font-size: 23px;
 }
 
-// TEXT
-p {
+//TEXT
+h1{
 	font-family: 'Days One', sans-serif;
-	height: fit-content;
-	margin-top: 0;
-	text-align: center;
-	margin-bottom: 0px;
+	margin: 0;
 }
 
-a {
+a{
 	font-family: 'Tapestry', cursive;
-	height: fit-content;
-	width: fit-content;
+	margin: 0;
+	font-size: 30px;
 	text-decoration: none;
-	color: $text-color;
-	text-transform: capitalize;
+	color: white;
 }
-
-a:hover {
-	color: $hover-color;
+a:hover{
+	color:red;
 }
-
-// menu-bar
-
-// .add-favorites-show{
-// 	display: block;
-// }
-
-// .add-favorites-hide{
-// 	display: none;
-// }
-
-// img
-
-// .img-hide{
-// 	display: none;
-// }
-
-// .img-menuShow{
-// 	height: 30px;
-// }
-// .img-menuUnshow{
-// 	height: 30px;
-// }
 
 // GRID
-.grid {
+.grid-title{
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(2,1fr);
+	margin-bottom: 30px;
+	border-bottom: 1px solid white;
 }
 
-.grid-align-center{
-	display: flex;
-	justify-content: center;
+// IMG
+img{
+	height: 114px;
 }
 
-.grid-webtoon {
-	margin: 0 0 0 auto;
-	gap: 10px;
-	display: grid;
-}
-.grid-constantly {
-	margin: 0 0 0 auto;
-	gap: 10px;
-	display: grid;
+// Webtoon
+.list-webtoon{
+	width: 50%;
 }
 
-// MOBILE
-@media screen and (max-width: 768px) {
-	body {
-		font-size: 20px;
-	}
-	.grid {
-		margin-top: 0;
-		display: grid;
-		grid-template-columns: repeat(2, 2fr);
-		margin-bottom: 40px;
-	}
+.list-site{
+	position: absolute;
+	width: 50%;
+	left: 50%;
+}
+
+.webtoon{
+	width: 50%;
+	float: left;
+    position: relative;
+}
+
+.webtoon-name{
+	position: absolute;
+	top: 1px;
+	left: 90px;
+}
+
+.constantly{
+	width: 50%;
+	float: left;
+    position: relative;
+}
+
+.constantly-img img{
+	margin-bottom: 30px;
+	height: 60px;
+}
+
+.constantly-name{
+	position: absolute;
+	top: 1px;
+	left: 90px;
 }
