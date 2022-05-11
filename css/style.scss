@@ -1,5 +1,5 @@
 // FONT STYLE
-@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Tapestry&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Days+One&family=Tapestry&display=swap");
 
 // Scrollbar off
 body::-webkit-scrollbar {
@@ -15,71 +15,95 @@ body {
 }
 
 //TEXT
-h1{
-	font-family: 'Days One', sans-serif;
+h2 {
+	font-family: "Days One", sans-serif;
 	margin: 0;
 }
 
-a{
-	font-family: 'Tapestry', cursive;
+a {
+	font-family: "Tapestry", cursive;
 	margin: 0;
 	font-size: 30px;
 	text-decoration: none;
 	color: white;
 }
-a:hover{
-	color:red;
+a:hover {
+	color: red;
 }
 
 // GRID
-.grid-title{
+.grid-title {
 	display: grid;
-	grid-template-columns: repeat(2,1fr);
+	grid-template-columns: repeat(2, 1fr);
 	margin-bottom: 30px;
 	border-bottom: 1px solid white;
 }
 
 // IMG
-img{
+img {
 	height: 114px;
 }
 
 // Webtoon
-.list-webtoon{
+.list-webtoon {
 	width: 50%;
 }
 
-.list-site{
+.list-site {
 	position: absolute;
 	width: 50%;
 	left: 50%;
 }
 
-.webtoon{
+.webtoon {
 	width: 50%;
 	float: left;
-    position: relative;
+	position: relative;
 }
 
-.webtoon-name{
+.webtoon-name {
 	position: absolute;
 	top: 1px;
 	left: 90px;
 }
 
-.constantly{
+.constantly {
 	width: 50%;
 	float: left;
-    position: relative;
+	position: relative;
 }
 
-.constantly-img img{
+.constantly-img img {
 	margin-bottom: 30px;
 	height: 60px;
 }
 
-.constantly-name{
+.constantly-name {
 	position: absolute;
 	top: 1px;
 	left: 90px;
+}
+
+@media screen and (max-width: "768px") {
+	.list-webtoon {
+		width: 90%;
+	}
+	.webtoon {
+		width: 50%;
+	}
+	.constantly {
+		display: none;
+	}
+	h2:nth-child(2n){
+		display: none;
+	}
+	h2 {
+		font-size: 30px;
+	}
+	a{
+		font-size: 20px;
+	}
+	img {
+		height: 100px;
+	}
 }
