@@ -43,13 +43,12 @@ a {
 }
 
 .list-webtoon-grid {
-  margin: 10px;
   padding: 10px;
   background-color: rgb(25, 25, 25);
-  width: 84vw;
+  width: auto;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  gap: 1%;
+  gap: 10px;
 }
 
 .list-site {
@@ -75,7 +74,7 @@ a {
   transform: scale(0.97);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 337px) {
   .main-bar {
     display: none;
   }
@@ -102,7 +101,16 @@ a {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media screen and (max-width: 1877px) and (min-width: 1239) {
+@media screen and (max-width: 337px) {
+  .main-bar {
+    display: none;
+  }
+
+  .list-webtoon-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 1877px) and (min-width: 1239px) {
   .list-webtoon-grid {
     grid-template-columns: repeat(5, 1fr);
   }
