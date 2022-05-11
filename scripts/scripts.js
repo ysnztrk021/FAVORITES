@@ -184,7 +184,7 @@ for (let i = 0; i < sorted_webtoon.length; i++) {
     list_webtoon.innerHTML +=
         `
     <li>
-	<a target="_blank" href="${sorted_webtoon[i].link_webtoon}">
+	<a target="_blank" href="${sorted_webtoon[i].link_webtoon}" title="${sorted_webtoon[i].webtoon}">
 	<img src="${sorted_webtoon[i].img_webtoon}" alt="" srcset="">
 	<div class="title-webtoon">
 		${sorted_webtoon[i].webtoon}
@@ -197,7 +197,7 @@ for (let i = 0; i < sorted_constantly.length; i++) {
     list_site.innerHTML += 
     `
 	<li>
-	<a target="_blank" href="${sorted_constantly[i].link_constantly}"><img src="${sorted_constantly[i].img_constantly}" alt="" srcset=""> ${sorted_constantly[i].constantly}</a>
+	<a target="_blank" title="${sorted_constantly[i].constantly}" href="${sorted_constantly[i].link_constantly}"><img src="${sorted_constantly[i].img_constantly}" alt="" srcset=""> ${sorted_constantly[i].constantly}</a>
 	</li>
     `
 }
