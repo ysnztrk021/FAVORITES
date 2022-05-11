@@ -120,7 +120,7 @@ const favourite_site = [
     {
         constantly: "YouTube",
         link_constantly: "https://www.youtube.com/",
-        img_constantly: "http://assets.stickpng.com/images/580b57fcd9996e24bc43c545.png"
+        img_constantly: "img/youtube.png"
     },
     {
         constantly: "Facebook",
