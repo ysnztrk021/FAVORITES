@@ -65,7 +65,7 @@ const favourite_webtoon = [
         link_webtoon: "https://readmanganato.com/manga-bt978676",
     },
     {
-        webtoon: "Martial Peek",
+        webtoon: "Martial Peak",
         link_webtoon: "https://manhuaplus.com/manga/martial-peak/",
     },
     {
