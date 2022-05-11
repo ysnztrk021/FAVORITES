@@ -2,12 +2,12 @@ const favourite_webtoon = [
     {
         webtoon: "Murim Login",
         link_webtoon: "https://www.asurascans.com/comics/murim-login/",
-        img_webtoon:"https://www.asurascans.com/wp-content/uploads/2022/04/LoginMoorimCover03.png"
+        img_webtoon:"img/Murim-login.jpg"
     },
     {
         webtoon: "Demonic Emperor",
         link_webtoon: "https://alpha-scans.org/manga/demonic-emperor/",
-        img_webtoon:"https://i2.wp.com/alpha-scans.org/wp-content/uploads/2022/01/demonic-emperor.jpg"
+        img_webtoon:"img/Demonic-emperor.jpg"
     },
     {
         webtoon: "Player Who Can't Level Up",
@@ -17,7 +17,7 @@ const favourite_webtoon = [
     {
         webtoon: "Reincarnation of the Suicidal Battle God",
         link_webtoon: "https://www.asurascans.com/comics/367-reincarnation-of-the-suicidal-battle-god/",
-        img_webtoon:"https://www.asurascans.com/wp-content/uploads/2021/06/sogdobogdo.jpg"
+        img_webtoon:"img/Reincarnation-of-the-suicidal-battle-god.jpg"
     },
     {
         webtoon: "Taming Master",
@@ -32,22 +32,22 @@ const favourite_webtoon = [
     {
         webtoon: "Return Of The Shattered Constellation",
         link_webtoon: "https://www.asurascans.com/comics/1649969363-return-of-the-shattered-constellation/",
-        img_webtoon:"https://www.asurascans.com/wp-content/uploads/2021/11/unknown.png"
+        img_webtoon:"img/Return-of-the-shattered-constellation.jpg"
     },
     {
         webtoon: "Jujutsu Kaisen",
         link_webtoon: "https://readmanganato.com/manga-ba979135",
-        img_webtoon:"https://avt.mkklcdnv6temp.com/30/d/16-1583494554.jpg"
+        img_webtoon:"img/Jjk.jpg"
     },
     {
         webtoon: "Mercenary Enrollment",
         link_webtoon: "https://readmanganato.com/manga-jz987182",
-        img_webtoon:"https://avt.mkklcdnv6temp.com/36/y/22-1605087752.jpg"
+        img_webtoon:"img/Mercenary-enrollment.jpg"
     },
     {
         webtoon: "Unordinary",
         link_webtoon: "https://readmanganato.com/manga-uw971531",
-        img_webtoon:"https://avt.mkklcdnv6temp.com/47/j/13-1583489495.jpg"
+        img_webtoon:"img/Unordinary.jpg"
     },
     {
         webtoon: "Ranker Who Lives A Second Time",
@@ -63,7 +63,7 @@ const favourite_webtoon = [
     {
         webtoon: "Memorize",
         link_webtoon: "https://luminousscans.com/series/manhwa-of-memorize-novel/",
-        img_webtoon:"https://luminousscans.com/wp-content/uploads/2021/07/resource.jpg"
+        img_webtoon:"img/Memorize.jpg"
     },
     {
         webtoon: "FFF-Class Trash Hero",
@@ -78,17 +78,17 @@ const favourite_webtoon = [
     {
         webtoon: "Apotheosis",
         link_webtoon: "https://readmanganato.com/manga-bt978676",
-        img_webtoon:"https://avt.mkklcdnv6temp.com/13/f/16-1583493949.jpg"
+        img_webtoon:"img/Apotheosis.jpg"
     },
     {
         webtoon: "Martial Peak",
         link_webtoon: "https://manhuaplus.com/manga/martial-peak/",
-        img_webtoon:"https://manhuaplus.com/wp-content/uploads/2020/07/MP-193x278.jpg"
+        img_webtoon:"img/Martial-peak.jpg"
     },
     {
         webtoon: "Soul Land",
         link_webtoon: "https://www.whitecloudpavilion.com/manga/patreon/manga/soul-land",
-        img_webtoon:"https://whitecloudpavilion.com/manga/patreon/uploads/manga/soul-land/cover/cover_250x350.jpg"
+        img_webtoon:"Soul-land.jpg"
     },
     {
         webtoon: "Eleceed",
@@ -98,7 +98,7 @@ const favourite_webtoon = [
     {
         webtoon: "Tales of Demons and Gods",
         link_webtoon: "https://setsuscans.com/manga/the-tales-of-demons-and-gods/",
-        img_webtoon:"https://i0.wp.com/setsuscans.com/wp-content/uploads/2021/04/001_0-scaled.jpg?fit=239%2C350&ssl=1"
+        img_webtoon:"img/Tales-of-demons-and-gods.jpg"
     },
     {
         webtoon: "Tomb Raider King",
@@ -108,24 +108,24 @@ const favourite_webtoon = [
     {
         webtoon: "Swordmaster’s Youngest Son",
         link_webtoon: "https://www.asurascans.com/comics/swordmasters-youngest-son/",
-        img_webtoon:"https://www.asurascans.com/wp-content/uploads/2022/04/cover.jpg"
+        img_webtoon:"img/Swordmaster's-youngest-son.jpg"
     },
     {
         webtoon: "Return of the Disaster-Class Hero",
         link_webtoon: "https://www.asurascans.com/comics/1649969363-return-of-the-disaster-class-hero/",
-        img_webtoon:"https://www.asurascans.com/wp-content/uploads/2021/10/2_-_Copy_copy.jpg"
+        img_webtoon:"img/Return-of-the-disaster-class-hero.jpg"
     },
 ]
 const favourite_site = [
     {
         constantly: "YouTube",
         link_constantly: "https://www.youtube.com/",
-        img_constantly:"http://assets.stickpng.com/images/580b57fcd9996e24bc43c545.png"
+        img_constantly:"img/youtube.png"
     }, 
     {
         constantly: "Facebook",
         link_constantly: "https://www.facebook.com/",
-        img_constantly:"https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1365px-Facebook_f_logo_%282019%29.svg.png"
+        img_constantly:"img/facebook.png"
     }, 
     {
         constantly: "Gmail",
