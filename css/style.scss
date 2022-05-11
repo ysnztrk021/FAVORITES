@@ -86,10 +86,11 @@ img {
 
 @media screen and (max-width: "768px") {
 	.list-webtoon {
-		width: 90%;
+		width: 100%;
 	}
 	.webtoon {
-		width: 50%;
+		display: flex;
+		width: 100%;
 	}
 	.constantly {
 		display: none;
