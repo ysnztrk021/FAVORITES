@@ -115,6 +115,11 @@ const favourite_webtoon = [
         link_webtoon: "https://www.asurascans.com/comics/1649969363-return-of-the-disaster-class-hero/",
         img_webtoon: "https://www.asurascans.com/wp-content/uploads/2021/10/2_-_Copy_copy.jpg"
     },
+    {
+        webtoon: "Return of the Mount Hua Sect",
+        link_webtoon: "https://www.asurascans.com/comics/1649969363-return-of-the-mount-hua-sect/",
+        img_webtoon: "img/Return-of-the-Mount-Hua-Sect.jpg"
+    },
 ]
 const favourite_site = [
     {
