@@ -120,6 +120,11 @@ const favourite_webtoon = [
         link_webtoon: "https://www.asurascans.com/comics/1649969363-return-of-the-mount-hua-sect/",
         img_webtoon: "img/Return-of-the-Mount-Hua-Sect.jpg"
     },
+    {
+        webtoon: "Return of the 8th Class Magician",
+        link_webtoon: "https://www.asurascans.com/comics/1649969363-return-of-the-8th-class-magician/",
+        img_webtoon: "img/8thclass.jpg"
+    },
 ]
 const favourite_site = [
     {
