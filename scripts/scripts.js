@@ -17,7 +17,7 @@ const favourite_webtoon = [
     {
         webtoon: "Reincarnation of the Suicidal Battle God",
         link_webtoon: "https://www.asurascans.com/comics/367-reincarnation-of-the-suicidal-battle-god/",
-        img_webtoon: "https://www.asurascans.com/wp-content/uploads/2021/06/sogdobogdo.jpg"
+        img_webtoon: "https://www.asurascans.com/wp-content/uploads/2021/06/sogdobogdo.jpg "
     },
     {
         webtoon: "Taming Master",
