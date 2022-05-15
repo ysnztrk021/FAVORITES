@@ -11,7 +11,7 @@ const favourite_webtoon = [
     },
     {
         webtoon: "Player Who Can't Level Up",
-        link_webtoon: "https://toonily.com/webtoon/the-player-that-cant-level-up/",
+        link_webtoon: "https://www.asurascans.com/comics/1649969363-player-who-cant-level-up/",
         img_webtoon: "img/Player-who-can't-level-up.jpg"
     },
     {
@@ -21,12 +21,12 @@ const favourite_webtoon = [
     },
     {
         webtoon: "Taming Master",
-        link_webtoon: "https://toonily.com/webtoon/taming-master/",
+        link_webtoon: "https://www.asurascans.com/comics/1649969363-taming-master/",
         img_webtoon: "img/Taming-master.jpg"
     },
     {
         webtoon: "The Max Level Hero has Returned!",
-        link_webtoon: "https://toonily.com/webtoon/the-max-level-hero-has-returned/",
+        link_webtoon: "https://www.asurascans.com/comics/1649969363-the-max-level-hero-has-returned/",
         img_webtoon: "img/Max-level-hero-has-returned.jpg"
     },
     {
