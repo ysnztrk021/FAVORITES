@@ -125,6 +125,11 @@ const favourite_webtoon = [
         link_webtoon: "https://www.asurascans.com/comics/1649969363-return-of-the-8th-class-magician/",
         img_webtoon: "img/8thclass.jpg"
     },
+    {
+        webtoon: "The Lord’s Coins Aren’t Decreasing?!",
+        link_webtoon: "https://www.asurascans.com/comics/1649969363-the-lords-coins-arent-decreasing/",
+        img_webtoon: "img/The-Lord's-Coins-Aren't-Decreasing.jpg"
+    },
 ]
 const favourite_site = [
     {
