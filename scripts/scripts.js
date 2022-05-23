@@ -130,6 +130,11 @@ const favourite_webtoon = [
         link_webtoon: "https://www.asurascans.com/comics/1649969363-the-lords-coins-arent-decreasing/",
         img_webtoon: "img/The-Lord's-Coins-Aren't-Decreasing.jpg"
     },
+    {
+        webtoon: "Legend of Asura – The Venom Dragon",
+        link_webtoon: "https://www.asurascans.com/comics/1649969363-legend-of-asura-the-venom-dragon/",
+        img_webtoon: "img/Legend-of-the-asura.jpg"
+    },
 ]
 const favourite_site = [
     {
