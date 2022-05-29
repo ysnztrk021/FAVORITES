@@ -135,6 +135,11 @@ const favourite_webtoon = [
         link_webtoon: "https://www.asurascans.com/comics/1649969363-legend-of-asura-the-venom-dragon/",
         img_webtoon: "img/Legend-of-the-asura.jpg"
     },
+    {
+        webtoon: "The Dark Magician Transmigrates After 66666 Years",
+        link_webtoon: "https://www.asurascans.com/comics/the-dark-magician-transmigrates-after-66666-years/",
+        img_webtoon: "img/The-Dark-Magician-Transmigrates-after-66666-years.jpg"
+    },
 ]
 const favourite_site = [
     {
