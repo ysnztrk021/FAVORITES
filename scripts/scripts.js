@@ -72,7 +72,7 @@ const favourite_webtoon = [
     },
     {
         webtoon: "Omniscient Reader’s Viewpoint",
-        link_webtoon: "https://manhwaz.com/webtoon/omniscient-readers-viewpoint-007",
+        link_webtoon: "https://manhwaz.com/webtoon/omniscient-readers-viewpoint-009",
         img_webtoon: "img/Omniscient-reader's-viewpoint.jpg"
     },
     {
