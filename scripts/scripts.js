@@ -140,6 +140,11 @@ const favourite_webtoon = [
         link_webtoon: "https://www.asurascans.com/comics/the-dark-magician-transmigrates-after-66666-years/",
         img_webtoon: "img/The-Dark-Magician-Transmigrates-after-66666-years.jpg"
     },
+    {
+        webtoon: "The Constellation That Returned From Hell",
+        link_webtoon: "https://www.asurascans.com/comics/1649969363-the-constellation-that-returned-from-hell/",
+        img_webtoon: "img/the-constellation-that-returned-from-hell.jpg"
+    },
 ]
 const favourite_site = [
     {
