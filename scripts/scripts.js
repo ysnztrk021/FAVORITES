@@ -36,7 +36,7 @@ const favourite_webtoon = [
     },
     {
         webtoon: "Jujutsu Kaisen",
-        link_webtoon: "https://www.scan-vf.net/jujutsu-kaisen",
+        link_webtoon: "https://onepiecechapters.com/mangas/4/jujutsu-kaisen",
         img_webtoon: "img/Jjk.jpg"
     },
     {
