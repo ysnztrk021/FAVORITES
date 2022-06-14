@@ -41,7 +41,7 @@ const favourite_webtoon = [
     },
     {
         webtoon: "Mercenary Enrollment",
-        link_webtoon: "https://readmanganato.com/manga-jz987182",
+        link_webtoon: "https://luminousscans.com/series/mercenary-enrollment/",
         img_webtoon: "https://avt.mkklcdnv6temp.com/36/y/22-1605087752.jpg"
     },
     {
@@ -50,14 +50,14 @@ const favourite_webtoon = [
         img_webtoon: "https://avt.mkklcdnv6temp.com/47/j/13-1583489495.jpg"
     },
     {
-        webtoon: "Ranker Who Lives A Second Time",
-        link_webtoon: "https://toonily.com/webtoon/second-ranker/",
+        webtoon: "Second Life Ranker",
+        link_webtoon: "https://zeroscans.com/comics/second-life-ranker",
         img_webtoon: "img/Second-Life-Ranker.jpg"
     },
 
     {
         webtoon: "The Beginning After The End",
-        link_webtoon: "https://toonily.com/webtoon/beginning-after-end/",
+        link_webtoon: "https://1stkissmanga.io/manga/the-beginning-after-the-end/",
         img_webtoon: "img/The-Beginning-After-the-End.jpg"
     },
     {
@@ -67,7 +67,7 @@ const favourite_webtoon = [
     },
     {
         webtoon: "FFF-Class Trash Hero",
-        link_webtoon: "https://toonily.com/webtoon/fff-class-trashero/",
+        link_webtoon: "https://luminousscans.com/series/1653732347-fff-class-trash-hero/",
         img_webtoon: "img/FFF-Class-Trashero.jpg"
     },
     {
@@ -92,7 +92,7 @@ const favourite_webtoon = [
     },
     {
         webtoon: "Eleceed",
-        link_webtoon: "https://toonily.com/webtoon/eleceed/",
+        link_webtoon: "https://mm-scans.org/manga/ele-ceed6/",
         img_webtoon: "img/Eleceed.jpg"
     },
     {
