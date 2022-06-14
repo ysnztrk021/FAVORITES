@@ -36,8 +36,8 @@ const favourite_webtoon = [
     },
     {
         webtoon: "Jujutsu Kaisen",
-        link_webtoon: "https://readmanganato.com/manga-ba979135",
-        img_webtoon: "https://avt.mkklcdnv6temp.com/30/d/16-1583494554.jpg"
+        link_webtoon: "https://www.scan-vf.net/jujutsu-kaisen",
+        img_webtoon: "img/Jjk.jpg"
     },
     {
         webtoon: "Mercenary Enrollment",
