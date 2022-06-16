@@ -227,7 +227,7 @@ for (let i = 0; i < sorted_constantly.length; i++) {
     list_site.innerHTML += 
     `
 	<li>
-	<a target="_blank" title="${sorted_constantly[i].constantly}" href="${sorted_constantly[i].link_constantly}"><img src="${sorted_constantly[i].img_constantly}" alt="" srcset=""> ${sorted_constantly[i].constantly}</a>
+	<a target="_blank" title="${sorted_constantly[i].constantly}" href="${sorted_constantly[i].link_constantly}"><img src="${sorted_constantly[i].img_constantly}" alt="" srcset=""></a>
 	</li>
     `
 }
