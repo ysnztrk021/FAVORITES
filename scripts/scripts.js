@@ -47,7 +47,7 @@ const favourite_webtoon = [
     {
         webtoon: "Unordinary",
         link_webtoon: "https://readmanganato.com/manga-uw971531",
-        img_webtoon: "https://avt.mkklcdnv6temp.com/47/j/13-1583489495.jpg"
+        img_webtoon: "https://i2.wp.com/www.webtoonplanet.com/wp-content/uploads/2020/06/unOrdinary_uruchan.jpg?fit=800%2C1174&ssl=1"
     },
     {
         webtoon: "Second Life Ranker",
