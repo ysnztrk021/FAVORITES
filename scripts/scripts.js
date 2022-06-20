@@ -145,6 +145,31 @@ const favourite_webtoon = [
         link_webtoon: "https://www.asurascans.com/comics/1649969363-the-constellation-that-returned-from-hell/",
         img_webtoon: "img/the-constellation-that-returned-from-hell.jpg"
     },
+    {
+        webtoon: "Solo Max-Level Newbie",
+        link_webtoon: "https://www.asurascans.com/comics/1649969363-solo-max-level-newbie/",
+        img_webtoon: "https://www.asurascans.com/wp-content/uploads/2021/07/solomaxlevelnewbie.jpg"
+    },
+    {
+        webtoon: "+99 Wooden Stick",
+        link_webtoon: "https://mm-scans.org/manga/99-woodenstick/",
+        img_webtoon: "https://mm-scans.org/wp-content/uploads/2022/03/BDC3B8AEC1EE_C7A5C1F6_690x1000-1.png"
+    },
+    {
+        webtoon: "The Newbie is Too Strong",
+        link_webtoon: "https://www.asurascans.com/manga/the-newbie-is-too-strong/",
+        img_webtoon: "https://www.asurascans.com/wp-content/uploads/2022/06/Strong_Newbie_Cover.jpg"
+    },
+    {
+        webtoon: "Tower of God",
+        link_webtoon: "https://alpha-scans.org/manga/1646956922-tower-of-god/",
+        img_webtoon: "https://i1.wp.com/alpha-scans.org/wp-content/uploads/2021/10/Tower-Of-God-Cover-1.png"
+    },
+    {
+        webtoon: "Dragon Ball Kakumei",
+        link_webtoon: "https://www.mangadraft.com/manga/dragon-ball-kakumei",
+        img_webtoon: "https://www.generationbd.com/images/DBK-00006_1000x1181.jpg"
+    },
 ]
 const favourite_site = [
     {
