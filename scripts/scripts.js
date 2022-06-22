@@ -170,6 +170,11 @@ const favourite_webtoon = [
         link_webtoon: "https://www.mangadraft.com/manga/dragon-ball-kakumei",
         img_webtoon: "https://www.generationbd.com/images/DBK-00006_1000x1181.jpg"
     },
+    {
+        webtoon: "The Great Mage Returns After 4000 Years",
+        link_webtoon: "https://reaperscans.com/series/the-great-mage-that-returned-after-4000-years/",
+        img_webtoon: "https://greatmagereturns.com/wp-content/uploads/2021/07/Great-Mage-Returns.jpg"
+    },
 ]
 const favourite_site = [
     {
