@@ -175,6 +175,11 @@ const favourite_webtoon = [
         link_webtoon: "https://reaperscans.com/series/the-great-mage-that-returned-after-4000-years/",
         img_webtoon: "https://greatmagereturns.com/wp-content/uploads/2021/07/Great-Mage-Returns.jpg"
     },
+    {
+        webtoon: "The Undefeatable Swordsman",
+        link_webtoon: "https://www.mcreader.net/manga/the-undefeatable-swordsman-gnn/",
+        img_webtoon: "https://images.novel-fast.club/avatar/288x412/media/manga_covers/the-undefeatable-swordsman-gnn.jpg"
+    },
 ]
 const favourite_site = [
     {
