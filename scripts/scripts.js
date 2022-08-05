@@ -83,7 +83,7 @@ const favourite_webtoon = [
     {
         webtoon: "Martial Peak",
         link_webtoon: "https://manhuaplus.com/manga/martial-peak/",
-        img_webtoon: "https://manhuaplus.com/wp-content/uploads/2020/07/MP-193x278.jpg"
+        img_webtoon: "img/Martial-peak.jpg"
     },
     {
         webtoon: "Soul Land",
