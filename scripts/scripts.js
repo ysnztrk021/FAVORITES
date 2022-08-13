@@ -190,6 +190,11 @@ const favourite_webtoon = [
         link_webtoon: "https://www.asurascans.com/manga/1660333069-the-world-after-the-end/",
         img_webtoon: "https://www.asurascans.com/wp-content/uploads/2022/02/the-world-after-the-end-cover.jpg"
     },
+    {
+        webtoon: "The Second Coming of Gluttony",
+        link_webtoon: "https://www.asurascans.com/manga/1660333069-the-second-coming-of-gluttony/",
+        img_webtoon: "https://www.asurascans.com/wp-content/uploads/2021/02/the_second_coming_of_gluttony.jpg"
+    },
 ]
 const favourite_site = [
     {
