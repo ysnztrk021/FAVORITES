@@ -1,7 +1,7 @@
 const favourite_webtoon = [
     {
         webtoon: "Murim Login",
-        link_webtoon: "https://www.asurascans.com/comics/murim-login/",
+        link_webtoon: "https://www.asurascans.com/manga/1660333069-murim-login/",
         img_webtoon: "https://www.asurascans.com/wp-content/uploads/2022/04/LoginMoorimCover03.png"
     },
     {
@@ -11,27 +11,27 @@ const favourite_webtoon = [
     },
     {
         webtoon: "Player Who Can't Level Up",
-        link_webtoon: "https://www.asurascans.com/comics/1649969363-player-who-cant-level-up/",
+        link_webtoon: "https://www.asurascans.com/manga/1660333069-player-who-cant-level-up/",
         img_webtoon: "img/Player-who-can't-level-up.jpg"
     },
     {
         webtoon: "Reincarnation of the Suicidal Battle God",
-        link_webtoon: "https://www.asurascans.com/comics/367-reincarnation-of-the-suicidal-battle-god/",
+        link_webtoon: "https://www.asurascans.com/manga/1660333069-reincarnation-of-the-suicidal-battle-god/",
         img_webtoon: "https://www.asurascans.com/wp-content/uploads/2021/06/sogdobogdo.jpg "
     },
     {
         webtoon: "Taming Master",
-        link_webtoon: "https://www.asurascans.com/comics/1649969363-taming-master/",
+        link_webtoon: "https://www.asurascans.com/manga/1660333069-taming-master/",
         img_webtoon: "img/Taming-master.jpg"
     },
     {
         webtoon: "The Max Level Hero has Returned!",
-        link_webtoon: "https://www.asurascans.com/comics/1649969363-the-max-level-hero-has-returned/",
+        link_webtoon: "https://www.asurascans.com/manga/1660333069-the-max-level-hero-has-returned/",
         img_webtoon: "img/Max-level-hero-has-returned.jpg"
     },
     {
         webtoon: "Return Of The Shattered Constellation",
-        link_webtoon: "https://www.asurascans.com/comics/1649969363-return-of-the-shattered-constellation/",
+        link_webtoon: "https://www.asurascans.com/manga/1660333069-return-of-the-shattered-constellation/",
         img_webtoon: "https://www.asurascans.com/wp-content/uploads/2021/11/unknown.png"
     },
     {
@@ -107,47 +107,47 @@ const favourite_webtoon = [
     },
     {
         webtoon: "Swordmaster’s Youngest Son",
-        link_webtoon: "https://www.asurascans.com/comics/swordmasters-youngest-son/",
+        link_webtoon: "https://www.asurascans.com/manga/1660333069-swordmasters-youngest-son/",
         img_webtoon: "https://www.asurascans.com/wp-content/uploads/2022/04/cover.jpg"
     },
     {
         webtoon: "Return of the Disaster-Class Hero",
-        link_webtoon: "https://www.asurascans.com/comics/1649969363-return-of-the-disaster-class-hero/",
+        link_webtoon: "https://www.asurascans.com/manga/1660333069-return-of-the-disaster-class-hero/",
         img_webtoon: "https://www.asurascans.com/wp-content/uploads/2021/10/2_-_Copy_copy.jpg"
     },
     {
         webtoon: "Return of the Mount Hua Sect",
-        link_webtoon: "https://www.asurascans.com/comics/1649969363-return-of-the-mount-hua-sect/",
+        link_webtoon: "https://www.asurascans.com/manga/1660333069-return-of-the-mount-hua-sect/",
         img_webtoon: "img/Return-of-the-Mount-Hua-Sect.jpg"
     },
     {
         webtoon: "Return of the 8th Class Magician",
-        link_webtoon: "https://www.asurascans.com/comics/1649969363-return-of-the-8th-class-magician/",
+        link_webtoon: "https://www.asurascans.com/manga/1660333069-return-of-the-8th-class-magician/",
         img_webtoon: "img/8thclass.jpg"
     },
     {
         webtoon: "The Lord’s Coins Aren’t Decreasing?!",
-        link_webtoon: "https://www.asurascans.com/comics/1649969363-the-lords-coins-arent-decreasing/",
+        link_webtoon: "https://www.asurascans.com/manga/1660333069-the-lords-coins-arent-decreasing/",
         img_webtoon: "img/The-Lord's-Coins-Aren't-Decreasing.jpg"
     },
     {
         webtoon: "Legend of Asura – The Venom Dragon",
-        link_webtoon: "https://www.asurascans.com/comics/1649969363-legend-of-asura-the-venom-dragon/",
+        link_webtoon: "https://www.asurascans.com/manga/1660333069-legend-of-asura-the-venom-dragon/",
         img_webtoon: "img/Legend-of-the-asura.jpg"
     },
     {
         webtoon: "The Dark Magician Transmigrates After 66666 Years",
-        link_webtoon: "https://www.asurascans.com/comics/the-dark-magician-transmigrates-after-66666-years/",
+        link_webtoon: "https://www.asurascans.com/manga/1660333069-the-dark-magician-transmigrates-after-66666-years/",
         img_webtoon: "img/The-Dark-Magician-Transmigrates-after-66666-years.jpg"
     },
     {
         webtoon: "The Constellation That Returned From Hell",
-        link_webtoon: "https://www.asurascans.com/comics/1649969363-the-constellation-that-returned-from-hell/",
+        link_webtoon: "https://www.asurascans.com/manga/1660333069-the-constellation-that-returned-from-hell/",
         img_webtoon: "img/the-constellation-that-returned-from-hell.jpg"
     },
     {
         webtoon: "Solo Max-Level Newbie",
-        link_webtoon: "https://www.asurascans.com/comics/1649969363-solo-max-level-newbie/",
+        link_webtoon: "https://www.asurascans.com/manga/1660333069-solo-max-level-newbie/",
         img_webtoon: "https://www.asurascans.com/wp-content/uploads/2021/07/solomaxlevelnewbie.jpg"
     },
     {
