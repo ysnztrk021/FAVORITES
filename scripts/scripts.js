@@ -180,6 +180,16 @@ const favourite_webtoon = [
         link_webtoon: "https://www.mcreader.net/manga/the-undefeatable-swordsman-gnn/",
         img_webtoon: "https://images.novel-fast.club/avatar/288x412/media/manga_covers/the-undefeatable-swordsman-gnn.jpg"
     },
+    {
+        webtoon: "A Returner’s Magic Should Be Special",
+        link_webtoon: "https://luminousscans.com/series/a-returners-magic-should-be-special/",
+        img_webtoon: "https://luminousscans.com/wp-content/uploads/2022/06/resource.png"
+    },
+    {
+        webtoon: "The World After The End",
+        link_webtoon: "https://www.asurascans.com/manga/1660333069-the-world-after-the-end/",
+        img_webtoon: "https://www.asurascans.com/wp-content/uploads/2022/02/the-world-after-the-end-cover.jpg"
+    },
 ]
 const favourite_site = [
     {
