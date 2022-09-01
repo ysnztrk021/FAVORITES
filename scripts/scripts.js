@@ -86,9 +86,9 @@ const favourite_webtoon = [
         img_webtoon: "img/Martial-peak.jpg"
     },
     {
-        webtoon: "Soul Land",
-        link_webtoon: "https://www.whitecloudpavilion.com/manga/patreon/manga/soul-land",
-        img_webtoon: "https://whitecloudpavilion.com/manga/patreon/uploads/manga/soul-land/cover/cover_250x350.jpg"
+        webtoon: "Douluo Dalu",
+        link_webtoon: "https://www.whitecloudpavilion.com/read/douluo-dalu/",
+        img_webtoon: "https://i1.wp.com/www.whitecloudpavilion.com/wp-content/uploads/2022/05/1651673877-3369-i361184.jpg"
     },
     {
         webtoon: "Eleceed",
