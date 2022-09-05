@@ -245,7 +245,7 @@ const favourite_site = [
     {
         constantly: "Twitter",
         link_constantly: "https://www.twitter.com/",
-        img_constantly: "https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/1200px-Twitter_Bird.svg.png"
+        img_constantly: "https://cdn-icons-png.flaticon.com/512/124/124021.png"
     },
     {
         constantly: "Xbox Cloud Game",
